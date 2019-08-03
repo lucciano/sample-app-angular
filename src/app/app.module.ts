@@ -22,7 +22,7 @@ import { routerConfigFn } from './router.config';
   imports: [
     UIRouterModule.forRoot({
       states: APP_STATES,
-      useHash: true,
+      useHash: false,
       otherwise: { state: 'home' },
       config: routerConfigFn,
     }),
